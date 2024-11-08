@@ -91,13 +91,4 @@ Here's a quick summary of how an action (e.g., moving forward) works from start 
 - **Centralized Command Management**: All actions go through `ActionRecorder`, making it easy to manage and track command history.
 - **Extensibility**: Adding new commands is straightforward and doesn’t require changes to existing code, following the Open/Closed Principle.
 
-## Next Steps
-
-To extend this codebase, you could:
-1. Add more movement commands, such as jumping or interacting with objects.
-2. Implement macros, which allow a series of commands to execute in sequence.
-3. Experiment with combining commands for complex actions, such as combos or AI behavior.
-
----
-
 This setup demonstrates a foundational use of the Command Pattern in Unity, providing both flexibility and scalability for game development. Enjoy exploring and building on this pattern!
